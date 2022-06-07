@@ -1,4 +1,5 @@
 import { useRef, useState } from 'react'
+import { Link } from 'react-router-dom'
 import CarouselHeader from './CarouselHeader'
 import About from './About'
 import Products from './Products'
@@ -44,15 +45,15 @@ const Home = () => {
             <div className={navBar ? 'navbar active' : 'navbar' }>
                 <div className="myContainer">
                     <div className='navbar-content'>
-                        <a href=''>
+                        <Link to='/'>
                             <img src="./src/assets/img/top-logo.svg" alt="Logo"  className='logo-navbar'/>
-                        </a>
+                        </Link>
                         <nav className='principal-nav'>
-                            <a  onClick={() => scrollToSection(home)}>Home</a>
-                            <a  onClick={() => scrollToSection(about)}>About</a>
-                            <a  onClick={() => scrollToSection(products)}>Products</a>
-                            <a  onClick={() => scrollToSection(services)}>Services</a>
-                            <a  onClick={() => scrollToSection(contact)}>Contact</a>
+                            <Link to='/' onClick={() => scrollToSection(home)}>Home</Link>
+                            <Link to='/' onClick={() => scrollToSection(about)}>About</Link>
+                            <Link to='/' onClick={() => scrollToSection(products)}>Products</Link>
+                            <Link to='/' onClick={() => scrollToSection(services)}>Services</Link>
+                            <Link to='/' onClick={() => scrollToSection(contact)}>Contact</Link>
                         </nav>
                     </div>
                 </div>
