@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+
 
 const CarouselHeader = () => {
   return (
@@ -16,7 +16,7 @@ const CarouselHeader = () => {
                             <h1>Set us perspiciatis<br/>unde omni iste natus</h1>
                             <p>sed ut perspiciatis unde omnis iste natus error<br/>sit voluptatem accusantium doloremque.</p>
                                     
-                            <Link to='/' className='button'>Read more</Link>
+                            <a href='' className='button'>Read more</a>
                         </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const CarouselHeader = () => {
                             <h1>Set us perspiciatis<br/>unde omni iste natus</h1>
                             <p>sed ut perspiciatis unde omnis iste natus error<br/>sit voluptatem accusantium doloremque.</p>
                                     
-                            <Link to='/' className='button'>Read more</Link>
+                            <a href='' className='button'>Read more</a>
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const CarouselHeader = () => {
                             <h1>Set us perspiciatis<br/>unde omni iste natus</h1>
                             <p>sed ut perspiciatis unde omnis iste natus error<br/>sit voluptatem accusantium doloremque.</p>
                                     
-                            <Link to='/' className='button'>Read more</Link>
+                            <a href='' className='button'>Read more</a>
                         </div>
                     </div>
                 </div>
